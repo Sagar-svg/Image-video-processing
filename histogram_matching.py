@@ -111,18 +111,10 @@ eq_hist1, en_img1 =  hist_eq(img1, hist1, False)
 eq_hist2, en_img2 =  hist_eq(img2, hist2, False)
 
 
-
-# %%
-
-
 # %%
 modi_hist, new_img = hist_matching(eq_hist2,eq_hist1,img2, img1)
 
 
 
 
-# %%
-key = np.where(5 == eq_hist2)[0]
-print(len(key))
-print(key[0])
-# %%
+
